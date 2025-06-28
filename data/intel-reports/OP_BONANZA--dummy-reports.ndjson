@@ -1,0 +1,930 @@
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-15",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR394827",
+    "date_of_intelligence": "2024-11-15",
+    "date_created": "2024-11-16",
+    "point_of_contact": "Sheffield7",
+    "title": "Danny WRIGHT DOB 03/06/1989 facilitates importation of deactivated firearms through Felixstowe Container Port.",
+    "threats": "Firearms - Importation and Distribution - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Danny WRIGHT DOB 03/06/1989 is employed as a Customs Officer at Felixstowe Container Port, Gate 4 Processing Centre, Felixstowe, IP11 3SY.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR394827 WRIGHT FELIXSTOWE CUSTOMS.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-15",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR394827",
+    "date_of_intelligence": "2024-11-15",
+    "date_created": "2024-11-16",
+    "point_of_contact": "Sheffield7",
+    "title": "Danny WRIGHT DOB 03/06/1989 facilitates importation of deactivated firearms through Felixstowe Container Port.",
+    "threats": "Firearms - Importation and Distribution - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Danny WRIGHT has been observed meeting with unidentified males in the car park of The Ship Inn, Shotley Gate, IP9 1QJ on multiple occasions during October 2024. These meetings occur during his break periods from customs duties.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR394827 WRIGHT FELIXSTOWE CUSTOMS.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-15",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR394827",
+    "date_of_intelligence": "2024-11-15",
+    "date_created": "2024-11-16",
+    "point_of_contact": "Sheffield7",
+    "title": "Danny WRIGHT DOB 03/06/1989 facilitates importation of deactivated firearms through Felixstowe Container Port.",
+    "threats": "Firearms - Importation and Distribution - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Danny WRIGHT drives a silver FORD MONDEO VRM KL19 WRT and regularly deposits large amounts of cash at HSBC Felixstowe branch, 127 Hamilton Road, IP11 7BL. Recent deposits include GBP 4,200 on 28/10/2024 and GBP 3,850 on 05/11/2024.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR394827 WRIGHT FELIXSTOWE CUSTOMS.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-10-22",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR385294",
+    "date_of_intelligence": "2024-10-22",
+    "date_created": "2024-10-23",
+    "point_of_contact": "Leeds15",
+    "title": "Terry MASON DOB 14/09/1980 operates firearms reactivation workshop at Unit 7, Riverside Industrial Estate, Wolverhampton.",
+    "threats": "Firearms - Manufacturing and Conversion - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Terry MASON DOB 14/09/1980 of 12 Greenway Close, Wolverhampton, WV3 8QP operates a machining workshop at Unit 7, Riverside Industrial Estate, Wolverhampton, WV2 8QR. The unit is rented under the business name 'Precision Engineering Solutions Ltd'.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR385294 MASON WORKSHOP FIREARMS.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-10-22",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR385294",
+    "date_of_intelligence": "2024-10-22",
+    "date_created": "2024-10-23",
+    "point_of_contact": "Leeds15",
+    "title": "Terry MASON DOB 14/09/1980 operates firearms reactivation workshop at Unit 7, Riverside Industrial Estate, Wolverhampton.",
+    "threats": "Firearms - Manufacturing and Conversion - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Terry MASON has been observed bringing metal cases and packages into the workshop during evening hours. Industrial machinery noise consistent with metalworking operations has been detected from the unit between 1800-2200 hours on weekdays.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR385294 MASON WORKSHOP FIREARMS.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-10-22",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR385294",
+    "date_of_intelligence": "2024-10-22",
+    "date_created": "2024-10-23",
+    "point_of_contact": "Leeds15",
+    "title": "Terry MASON DOB 14/09/1980 operates firearms reactivation workshop at Unit 7, Riverside Industrial Estate, Wolverhampton.",
+    "threats": "Firearms - Manufacturing and Conversion - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Terry MASON is a qualified machinist with previous employment at BAE Systems Ordnance division from 2003-2011. He has specialist knowledge of firearms mechanisms and small arms manufacturing processes.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR385294 MASON WORKSHOP FIREARMS.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-08",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR402156",
+    "date_of_intelligence": "2024-11-08",
+    "date_created": "2024-11-09",
+    "point_of_contact": "Birmingham21",
+    "title": "Golden Scissors Barbers, Birmingham, processes large cash amounts inconsistent with legitimate barbering business.",
+    "threats": "Money Laundering - High-end money laundering - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Golden Scissors Barbers, 45 High Street, Birmingham, B4 7SL is operated by Mehmet OZTURK DOB 19/05/1979. The business operates cash-only and refuses card payments, claiming 'machine problems' to customers.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR402156 GOLDEN SCISSORS MONEY LAUNDERING.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-08",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR402156",
+    "date_of_intelligence": "2024-11-08",
+    "date_created": "2024-11-09",
+    "point_of_contact": "Birmingham21",
+    "title": "Golden Scissors Barbers, Birmingham, processes large cash amounts inconsistent with legitimate barbering business.",
+    "threats": "Money Laundering - High-end money laundering - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Mehmet OZTURK makes daily cash deposits at Lloyds Bank Birmingham City Centre branch totaling approximately GBP 2,500-4,000 per day. These amounts are inconsistent with observed customer numbers and typical barbering service prices.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR402156 GOLDEN SCISSORS MONEY LAUNDERING.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-08",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR402156",
+    "date_of_intelligence": "2024-11-08",
+    "date_created": "2024-11-09",
+    "point_of_contact": "Birmingham21",
+    "title": "Golden Scissors Barbers, Birmingham, processes large cash amounts inconsistent with legitimate barbering business.",
+    "threats": "Money Laundering - High-end money laundering - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "An individual known as 'NUMBERS' within criminal circles has been observed meeting with OZTURK on multiple occasions. NUMBERS is believed to be Rafiq HASSAN DOB 07/11/1982 based on physical description and vehicle intelligence.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "C",
+      "text": "Known indirectly"
+    }
+  },
+  "filename": "IR402156 GOLDEN SCISSORS MONEY LAUNDERING.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-09-14",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR367812",
+    "date_of_intelligence": "2024-09-14",
+    "date_created": "2024-09-15",
+    "point_of_contact": "Coventry8",
+    "title": "MSCU CONTAINER SHIP from Port of Gdansk carries suspicious cargo manifested as 'vintage military collectibles' destined for UK distribution.",
+    "threats": "Firearms - Importation and Distribution - Band 1, Customs - Import Violations - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Container MSCU 789654123 aboard MV BALTIC TRADER arrived at Felixstowe on 14/09/2024 from Port of Gdansk, Poland. Manifest declares contents as 'vintage military collectibles and theatrical props' consigned to Midlands Historical Supplies Ltd, Unit 12, Birmingham Industrial Park, B6 7QR.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR367812 CONTAINER FIREARMS IMPORT.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-09-14",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR367812",
+    "date_of_intelligence": "2024-09-14",
+    "date_created": "2024-09-15",
+    "point_of_contact": "Coventry8",
+    "title": "MSCU CONTAINER SHIP from Port of Gdansk carries suspicious cargo manifested as 'vintage military collectibles' destined for UK distribution.",
+    "threats": "Firearms - Importation and Distribution - Band 1, Customs - Import Violations - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Midlands Historical Supplies Ltd was incorporated on 15/08/2024 with registered address matching a virtual office service. Company director listed as Lisa BRENNAN DOB 19/12/1987 of Flat 3, Canal View Apartments, Wolverhampton, WV1 3HQ.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR367812 CONTAINER FIREARMS IMPORT.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-09-14",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR367812",
+    "date_of_intelligence": "2024-09-14",
+    "date_created": "2024-09-15",
+    "point_of_contact": "Coventry8",
+    "title": "MSCU CONTAINER SHIP from Port of Gdansk carries suspicious cargo manifested as 'vintage military collectibles' destined for UK distribution.",
+    "threats": "Firearms - Importation and Distribution - Band 1, Customs - Import Violations - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Container was cleared through customs without physical inspection after documentation review by Customs Officer Danny WRIGHT DOB 03/06/1989. Standard random inspection protocols were reportedly bypassed due to 'low risk assessment'.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR367812 CONTAINER FIREARMS IMPORT.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-20",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR407593",
+    "date_of_intelligence": "2024-11-20",
+    "date_created": "2024-11-21",
+    "point_of_contact": "Manchester14",
+    "title": "Jamal CLARKE DOB 11/07/1994 distributes firearms to street gangs in Birmingham area on behalf of organized crime group.",
+    "threats": "Firearms - Distribution - Band 1, OCG - Street Gang Association - Band 2.",
+    "handling_code": "P",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Jamal CLARKE DOB 11/07/1994 of 78 Stratford Road, Birmingham, B11 1AH is a known associate of the Northside Crew street gang operating in the Aston and Handsworth areas of Birmingham.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR407593 CLARKE FIREARMS DISTRIBUTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-20",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR407593",
+    "date_of_intelligence": "2024-11-20",
+    "date_created": "2024-11-21",
+    "point_of_contact": "Manchester14",
+    "title": "Jamal CLARKE DOB 11/07/1994 distributes firearms to street gangs in Birmingham area on behalf of organized crime group.",
+    "threats": "Firearms - Distribution - Band 1, OCG - Street Gang Association - Band 2.",
+    "handling_code": "P",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Jamal CLARKE was observed collecting packages from Unit 7, Riverside Industrial Estate, Wolverhampton, WV2 8QR on 18/11/2024 at approximately 1430 hours. He met with an unidentified white male aged 35-40 years.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR407593 CLARKE FIREARMS DISTRIBUTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-20",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR407593",
+    "date_of_intelligence": "2024-11-20",
+    "date_created": "2024-11-21",
+    "point_of_contact": "Manchester14",
+    "title": "Jamal CLARKE DOB 11/07/1994 distributes firearms to street gangs in Birmingham area on behalf of organized crime group.",
+    "threats": "Firearms - Distribution - Band 1, OCG - Street Gang Association - Band 2.",
+    "handling_code": "P",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Jamal CLARKE drives a black BMW 3 Series VRM BD19 JCL and has been linked to recent firearms incidents in Birmingham involving converted blank-firing pistols. Payments for weapons are believed to be approximately GBP 800-1,200 per handgun.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "C",
+      "text": "Known indirectly"
+    }
+  },
+  "filename": "IR407593 CLARKE FIREARMS DISTRIBUTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-10-05",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR378641",
+    "date_of_intelligence": "2024-10-05",
+    "date_created": "2024-10-06",
+    "point_of_contact": "Hull9",
+    "title": "Kevin PARKS DOB 28/01/1975 facilitates customs clearance of suspicious containers at Hull Port Authority.",
+    "threats": "Firearms - Importation and Distribution - Band 1, Customs - Corruption - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Kevin PARKS DOB 28/01/1975 is employed as Senior Customs Inspector at Hull Port Authority, King George Dock, Hull, HU9 5QA. PARKS has access to container inspection scheduling and clearance authorization systems.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR378641 PARKS HULL CUSTOMS CORRUPTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-10-05",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR378641",
+    "date_of_intelligence": "2024-10-05",
+    "date_created": "2024-10-06",
+    "point_of_contact": "Hull9",
+    "title": "Kevin PARKS DOB 28/01/1975 facilitates customs clearance of suspicious containers at Hull Port Authority.",
+    "threats": "Firearms - Importation and Distribution - Band 1, Customs - Corruption - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Kevin PARKS resides at 15 Maple Drive, Cottingham, HU16 5PR and drives a red AUDI A4 VRM YK23 KPK. Financial intelligence indicates recent large cash deposits totaling GBP 15,000 over the past three months into his Santander current account.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR378641 PARKS HULL CUSTOMS CORRUPTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-10-05",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR378641",
+    "date_of_intelligence": "2024-10-05",
+    "date_created": "2024-10-06",
+    "point_of_contact": "Hull9",
+    "title": "Kevin PARKS DOB 28/01/1975 facilitates customs clearance of suspicious containers at Hull Port Authority.",
+    "threats": "Firearms - Importation and Distribution - Band 1, Customs - Corruption - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Kevin PARKS has overridden standard inspection protocols for containers from Eastern European ports on at least six occasions since August 2024. These containers were manifested as 'industrial machinery parts' and 'automotive components'.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR378641 PARKS HULL CUSTOMS CORRUPTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-07-01",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR341759",
+    "date_of_intelligence": "2024-07-01",
+    "date_created": "2024-07-02",
+    "point_of_contact": "Coventry8",
+    "title": "NUMBERS aka 'The Sultan' believed to be Rafiq HASSAN coordinates financial operations for firearms trafficking organization.",
+    "threats": "Money Laundering - High-end money laundering - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "NUMBERS, aka 'The Sultan' within the OCG, believed to be Rafiq HASSAN DOB 07/11/1982, met and spoke with Mo from Istanbul Cuts to discuss the numbers for the day. The meeting took place at 1100 01/07/2024 at Market Car Park, Coventry, CV1.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR341759 NUMBERS HASSAN FINANCIAL COORDINATION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-07-01",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR341759",
+    "date_of_intelligence": "2024-07-01",
+    "date_created": "2024-07-02",
+    "point_of_contact": "Coventry8",
+    "title": "NUMBERS aka 'The Sultan' believed to be Rafiq HASSAN coordinates financial operations for firearms trafficking organization.",
+    "threats": "Money Laundering - High-end money laundering - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Rafiq HASSAN drives a white BMW X5 VRM RH67 SLT and owns property at 67 Cedar Grove, Solihull, B91 3QT valued at approximately GBP 450,000. Property was purchased in cash in February 2023.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR341759 NUMBERS HASSAN FINANCIAL COORDINATION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-07-01",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR341759",
+    "date_of_intelligence": "2024-07-01",
+    "date_created": "2024-07-02",
+    "point_of_contact": "Coventry8",
+    "title": "NUMBERS aka 'The Sultan' believed to be Rafiq HASSAN coordinates financial operations for firearms trafficking organization.",
+    "threats": "Money Laundering - High-end money laundering - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "During surveillance, Rafiq HASSAN was heard referring to 'the merchandise from the east' and 'making them sing again' in a phone conversation on 28/06/2024. Context suggests this relates to firearm importation and reactivation activities.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "C",
+      "text": "Known indirectly"
+    }
+  },
+  "filename": "IR341759 NUMBERS HASSAN FINANCIAL COORDINATION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-08-12",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR352847",
+    "date_of_intelligence": "2024-08-12",
+    "date_created": "2024-08-13",
+    "point_of_contact": "Leicester11",
+    "title": "Elena KOZLOV DOB 22/03/1985 coordinates European firearms supply chain from Czech Republic and Slovakia.",
+    "threats": "Firearms - International Trafficking - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Elena KOZLOV DOB 22/03/1985, Czech national, resides at Flat 4, Marina Heights, Birmingham, B1 2NP. KOZLOV holds UK residence status and travels frequently to Prague and Bratislava using Czech passport number 99087654.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR352847 KOZLOV EUROPEAN SUPPLY CHAIN.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-08-12",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR352847",
+    "date_of_intelligence": "2024-08-12",
+    "date_created": "2024-08-13",
+    "point_of_contact": "Leicester11",
+    "title": "Elena KOZLOV DOB 22/03/1985 coordinates European firearms supply chain from Czech Republic and Slovakia.",
+    "threats": "Firearms - International Trafficking - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Elena KOZLOV operates under the alias 'SNOW WHITE' within criminal communications and has established supply relationships with deactivated weapons dealers in the Czech Republic. She arranges bulk purchases of deactivated pistols and revolvers.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "C",
+      "text": "Known indirectly"
+    }
+  },
+  "filename": "IR352847 KOZLOV EUROPEAN SUPPLY CHAIN.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-08-12",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR352847",
+    "date_of_intelligence": "2024-08-12",
+    "date_created": "2024-08-13",
+    "point_of_contact": "Leicester11",
+    "title": "Elena KOZLOV DOB 22/03/1985 coordinates European firearms supply chain from Czech Republic and Slovakia.",
+    "threats": "Firearms - International Trafficking - Band 1, OCG - Organized Crime Group - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Financial intelligence indicates Elena KOZLOV has transferred over EUR 50,000 to Czech bank accounts in the past six months through multiple small transfers via Wise and Revolut payment platforms to avoid detection thresholds.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR352847 KOZLOV EUROPEAN SUPPLY CHAIN.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-01",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR398512",
+    "date_of_intelligence": "2024-11-01",
+    "date_created": "2024-11-02",
+    "point_of_contact": "Solihull6",
+    "title": "THE PROFESSOR believed to be Marcus HAYES coordinates overall firearms trafficking operation from Sutton Coldfield.",
+    "threats": "Firearms - Importation and Distribution - Band 1, OCG - Organized Crime Group Leadership - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "An individual known as 'THE PROFESSOR' within criminal circles is believed to be Marcus HAYES DOB 15/08/1978 of 23 Oak Avenue, Sutton Coldfield, B73 6HG. HAYES drives a black RANGE ROVER SPORT VRM MH78 PRF.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "C",
+      "text": "Known indirectly"
+    }
+  },
+  "filename": "IR398512 PROFESSOR HAYES LEADERSHIP.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-01",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR398512",
+    "date_of_intelligence": "2024-11-01",
+    "date_created": "2024-11-02",
+    "point_of_contact": "Solihull6",
+    "title": "THE PROFESSOR believed to be Marcus HAYES coordinates overall firearms trafficking operation from Sutton Coldfield.",
+    "threats": "Firearms - Importation and Distribution - Band 1, OCG - Organized Crime Group Leadership - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Marcus HAYES has been observed meeting with known associates at The Belfry Hotel, Wishaw, B76 9PR on multiple occasions. Meetings typically occur in the hotel bar area during weekday afternoons and involve discussion of 'business arrangements'.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR398512 PROFESSOR HAYES LEADERSHIP.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-11-01",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR398512",
+    "date_of_intelligence": "2024-11-01",
+    "date_created": "2024-11-02",
+    "point_of_contact": "Solihull6",
+    "title": "THE PROFESSOR believed to be Marcus HAYES coordinates overall firearms trafficking operation from Sutton Coldfield.",
+    "threats": "Firearms - Importation and Distribution - Band 1, OCG - Organized Crime Group Leadership - Band 1.",
+    "handling_code": "C",
+    "confidence_level": "Medium"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Marcus HAYES operates legitimate business interests including Hayes Property Developments Ltd and Midland Security Solutions Ltd which may serve as fronts for criminal proceeds. Both companies show minimal trading activity despite substantial cash flows.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR398512 PROFESSOR HAYES LEADERSHIP.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-09-28",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR371463",
+    "date_of_intelligence": "2024-09-28",
+    "date_created": "2024-09-29",
+    "point_of_contact": "Manchester14",
+    "title": "Craig THOMPSON DOB 26/05/1983 distributes firearms to organized crime groups in Manchester and Liverpool areas.",
+    "threats": "Firearms - Distribution - Band 1, OCG - Inter-group Supply - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 1,
+    "content": "Craig THOMPSON DOB 26/05/1983 of 34 Ashton Road, Manchester, M14 5QR operates distribution network supplying converted firearms to OCGs in Greater Manchester and Merseyside areas.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "A",
+      "text": "Known directly"
+    }
+  },
+  "filename": "IR371463 THOMPSON MANCHESTER DISTRIBUTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-09-28",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR371463",
+    "date_of_intelligence": "2024-09-28",
+    "date_created": "2024-09-29",
+    "point_of_contact": "Manchester14",
+    "title": "Craig THOMPSON DOB 26/05/1983 distributes firearms to organized crime groups in Manchester and Liverpool areas.",
+    "threats": "Firearms - Distribution - Band 1, OCG - Inter-group Supply - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 2,
+    "content": "Craig THOMPSON collects firearms from Unit 7, Riverside Industrial Estate, Wolverhampton approximately every 2-3 weeks using a white FORD TRANSIT van VRM CT83 MAN. Each collection typically involves 8-12 wrapped packages.",
+    "source_eval": {
+      "code": "1",
+      "text": "Reliable"
+    },
+    "intel_eval": {
+      "code": "B",
+      "text": "Known indirectly but corroborated"
+    }
+  },
+  "filename": "IR371463 THOMPSON MANCHESTER DISTRIBUTION.docx"
+}
+{ "index": { "_index": "demo-intel.reports-dummy" } }
+{
+  "@timestamp": "2024-09-28",
+  "operation": {
+    "name": "BONANZA",
+    "sio": "carter12"
+  },
+  "report": {
+    "urn": "IR371463",
+    "date_of_intelligence": "2024-09-28",
+    "date_created": "2024-09-29",
+    "point_of_contact": "Manchester14",
+    "title": "Craig THOMPSON DOB 26/05/1983 distributes firearms to organized crime groups in Manchester and Liverpool areas.",
+    "threats": "Firearms - Distribution - Band 1, OCG - Inter-group Supply - Band 1.",
+    "handling_code": "P",
+    "confidence_level": "High"
+  },
+  "intelligence": {
+    "item_number": 3,
+    "content": "Craig THOMPSON has established supply relationships with at least three major OCGs including the Cheetham Hill Gang and Salford-based groups. Weapons are typically priced at GBP 1,500-2,000 per handgun for bulk purchases.",
+    "source_eval": {
+      "code": "2",
+      "text": "Untested"
+    },
+    "intel_eval": {
+      "code": "C",
+      "text": "Known indirectly"
+    }
+  },
+  "filename": "IR371463 THOMPSON MANCHESTER DISTRIBUTION.docx"
+}

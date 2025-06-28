@@ -1,0 +1,46 @@
+{
+  "processors": [
+    {
+      "inference": {
+        "model_id": "conll03_english_ner_ingest",
+        "target_field": "ner",
+        "field_map": {
+          "intelligence.content": "text_field"
+        }
+      }
+    },
+    {
+      "script": {
+        "description": "Extract entity names and create tags by type",
+        "source": "ctx.tags = [:]; for (item in ctx.ner.entities) { if (ctx.tags[item.class_name] == null) { ctx.tags[item.class_name] = []; } if (!ctx.tags[item.class_name].contains(item.entity)) { ctx.tags[item.class_name].add(item.entity); } }",
+        "lang": "painless",
+        "if": "ctx.ner?.entities != null"
+      }
+    },
+    {
+      "set": {
+        "field": "intelligence.content_semantic",
+        "copy_from": "intelligence.content"
+      }
+    },
+    {
+      "script": {
+        "description": "Parse threats string into structured format with types extraction",
+        "source": "def threatsText = ctx.report.threats; def types = new ArrayList(); def seen = new HashSet(); def parts = /,/.split(threatsText); for (int i = 0; i < parts.length; i++) { def part = /^\\s+|\\s+$/.matcher(parts[i]).replaceAll(''); if (part.length() > 0) { def dashMatcher = /\\s+-\\s+/.matcher(part); if (dashMatcher.find()) { def type = part.substring(0, dashMatcher.start()); type = /^\\s+|\\s+$/.matcher(type).replaceAll(''); if (type.length() > 0 && !seen.contains(type)) { types.add(type); seen.add(type); } } } } ctx.report.threats_parsed = ['text': threatsText, 'types': types];",
+        "lang": "painless",
+        "if": "ctx.report?.threats != null && ctx.report.threats instanceof String"
+      }
+    },
+    {
+      "remove": {
+        "field": "report.threats"
+      }
+    },
+    {
+      "rename": {
+        "field": "report.threats_parsed",
+        "target_field": "report.threats"
+      }
+    }
+  ]
+}

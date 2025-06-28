@@ -1,0 +1,41 @@
+{
+  "processors": [
+    {
+      "date": {
+        "field": "start_date",
+        "formats": [
+          "UNIX"
+        ]
+      }
+    },
+    {
+      "script": {
+        "description": "Extract all usernames from marked-up text using regex",
+        "source": "if (ctx.text != null) { def text = ctx.text; def usernames = new ArrayList(); def seen = new HashSet(); def start = 0; while (true) { def startTag = text.indexOf('<', start); if (startTag == -1) break; def endTag = text.indexOf('>:', startTag); if (endTag == -1) break; def username = text.substring(startTag + 1, endTag); if (!seen.contains(username)) { usernames.add(username); seen.add(username); } start = endTag + 2; } ctx.username = usernames; ctx.user_count = usernames.size(); }"
+      }
+    },
+    {
+      "inference": {
+        "field_map": {
+          "text": "intelligence.report"
+        },
+        "model_id": "conll03_english_ner_ingest",
+        "target_field": "ner"
+      }
+    },
+    {
+      "script": {
+        "description": "Extract entity names and create tags by type",
+        "source": "ctx.tags = [:]; for (item in ctx.ner.entities) { if (ctx.tags[item.class_name] == null) { ctx.tags[item.class_name] = []; } if (!ctx.tags[item.class_name].contains(item.entity)) { ctx.tags[item.class_name].add(item.entity); } }",
+        "lang": "painless",
+        "if": "ctx.ner?.entities != null"
+      }
+    },
+    {
+      "script": {
+        "description": "Extract keywords from text, ignoring common stop words",
+        "source": "def text = ctx.intelligence.report.toLowerCase(); def words = /\\s+/.split(text); def wordCounts = new HashMap(); def stopWords = ['the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'were', 'be', 'been', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must', 'can', 'this', 'that', 'these', 'those', 'a', 'an', 'just', 'like', 'what', 'about', 'from', 'they', 'your', 'dont', 'more', 'there', 'some', 'when', 'think', 'know', 'people', 'because', 'really', 'time', 'then', 'them', 'only', 'than', 'even', 'also', 'good', 'thats', 'other', 'which', 'their', 'much', 'into', 'make', 'well', 'something', 'want', 'youre', 'very', 'being', 'still', 'going', 'where', 'first', 'most', 'doesnt', 'cant', 'need', 'after', 'never', 'right', 'over', 'here', 'things', 'didnt', 'back', 'same', 'thing', 'sure', 'actually', 'before', 'take', 'anything', 'someone', 'isnt', 'point', 'said', 'feel', 'years', 'work', 'better', 'though', 'while', 'find', 'pretty', 'made', 'down', 'many', 'every', 'read', 'around', 'look', 'always', 'long', 'theres', 'mean', 'life', 'without', 'different', 'best', 'give', 'used', 'maybe', 'since', 'trying', 'through', 'little', 'makes', 'great', 'thanks', 'thought', 'love', 'come', 'came', 'help', 'getting', 'today', 'yesterday', 'tomorrow', 'next', 'last', 'another', 'each', 'both', 'either', 'neither', 'such', 'own', 'self', 'myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'yourselves', 'themselves', 'who', 'whom', 'whose', 'what', 'which', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 'say', 'says', 'said', 'tell', 'told', 'ask', 'asked', 'says', 'told', 'asked', 'get', 'got', 'gotten', 'go', 'goes', 'went', 'gone', 'see', 'saw', 'seen', 'put', 'puts', 'putting', 'take', 'takes', 'took', 'taken', 'come', 'comes', 'came']; for (int i = 0; i < words.length; i++) { def word = /[^a-zA-Z]/.matcher(words[i]).replaceAll('').toLowerCase(); if (word.length() > 4 && !stopWords.contains(word)) { wordCounts.put(word, wordCounts.getOrDefault(word, 0) + 1); } } def keywords = new ArrayList(); for (def entry : wordCounts.entrySet()) { if (entry.getValue() >= 2) { keywords.add(entry.getKey()); } } ctx.keywords = keywords;"
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "settings": {
+    "index.codec": "default",
+    "index.default_pipeline": "intel-messages-pipeline",
+    "index.query.default_field": [
+      "*"
+    ],
+    "index.refresh_interval": "5s"
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": {
+        "type": "date"
+      },
+      "operation": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "keyword"
+          },
+          "sio": {
+            "type": "keyword"
+          }
+        }
+      },
+      "device": {
+        "type": "object",
+        "properties": {
+          "seized": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "keyword"
+              },
+              "date": {
+                "type": "date"
+              }
+            }
+          },
+          "manufacturer": {
+            "type": "keyword"
+          },
+          "model": {
+            "type": "keyword"
+          },
+          "imei": {
+            "type": "keyword"
+          },
+          "extraction": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "date"
+              },
+              "tool": {
+                "type": "keyword"
+              },
+              "operator": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      },
+      "thread": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "keyword"
+          },
+          "message_count": {
+            "type": "integer"
+          },
+          "start_date": {
+            "type": "date"
+          },
+          "latest_date": {
+            "type": "date"
+          },
+          "participants_count": {
+            "type": "integer"
+          },
+          "participants": {
+            "type": "nested",
+            "properties": {
+              "identifier": {
+                "type": "keyword"
+              },
+              "name": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      },
+      "message": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "sender": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "keyword"
+              },
+              "name": {
+                "type": "keyword"
+              }
+            }
+          },
+          "recipients": {
+            "type": "nested",
+            "properties": {
+              "identifier": {
+                "type": "keyword"
+              },
+              "name": {
+                "type": "keyword"
+              }
+            }
+          },
+          "content": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "text"
+              },
+              "semantic": {
+                "type": "semantic_text",
+                "inference_id": ".elser-2-elasticsearch",
+                "model_settings": {
+                  "service": "elasticsearch",
+                  "task_type": "sparse_embedding"
+                }
+              }
+            }
+          },
+          "type": {
+            "type": "keyword"
+          }
+        }
+      },
+      "related": {
+        "type": "object",
+        "properties": {
+          "identifiers": {
+            "type": "keyword"
+          },
+          "names": {
+            "type": "keyword"
+          }
+        }
+      },
+      "lang_ident": {
+        "properties": {
+          "model_id": {
+            "type": "keyword"
+          },
+          "predicted_value": {
+            "type": "keyword"
+          },
+          "prediction_probability": {
+            "type": "float"
+          },
+          "prediction_score": {
+            "type": "float"
+          },
+          "top_classes": {
+            "properties": {
+              "class_name": {
+                "type": "keyword"
+              },
+              "class_probability": {
+                "type": "float"
+              },
+              "class_score": {
+                "type": "float"
+              }
+            }
+          }
+        }
+      },
+      "ner": {
+        "properties": {
+          "entities": {
+            "properties": {
+              "class_name": {
+                "type": "keyword"
+              },
+              "class_probability": {
+                "type": "float"
+              },
+              "end_pos": {
+                "type": "long"
+              },
+              "entity": {
+                "type": "keyword"
+              },
+              "start_pos": {
+                "type": "long"
+              }
+            }
+          },
+          "is_truncated": {
+            "type": "boolean"
+          },
+          "model_id": {
+            "type": "keyword"
+          },
+          "predicted_value": {
+            "type": "text"
+          }
+        }
+      },
+      "tags": {
+        "properties": {
+          "LOC": {
+            "type": "keyword"
+          },
+          "MISC": {
+            "type": "keyword"
+          },
+          "ORG": {
+            "type": "keyword"
+          },
+          "PER": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+[project]
+name = "operation-bonanza"
+version = "1.0.0"
+description = "Example project demonstrating how to use Elasticsearch for intelligence and evidential investigations"
+readme = "README.md"
+authors = [
+    {name="face0b1101", email= "6190957+face0b1101@users.noreply.github.com"}
+]
+maintainers = [
+    {name="face0b1101", email= "6190957+face0b1101@users.noreply.github.com"}
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+dependencies = [
+    "elasticsearch>=9.0.2",
+    "python-decouple>=3.8",
+    "tqdm>=4.66.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/face0b1101/operation-bonanza"
+Documentation = "https://github.com/face0b1101/operation-bonanza"
+Repository = "https://github.com/face0b1101/operation-bonanza"
+Changelog = "https://github.com/face0b1101/operation-bonanza/blob/master/CHANGELOG.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["notebooks"]
+
+[tool.ruff]
+include = ["*.py", "*.pyi", "*.ipynb", "**/pyproject.toml"]
+line-length = 88
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ruff.lint]
+ignore = ["E203", "E266", "E501", "F403", "F401"]
+extend-select = [
+    "D", # pydocstyle
+    "E", "W", # pycodestyle
+    "F", # Pyflakes
+    "I", # sort imports
+    "UP", # pyupgrade
+    "Q", # flake8-quotes
+    "B", # flake8-bugbear
+    "B9", # flake8-bugbear "more opinionated" checks
+    "SIM", # flake8-simplify
+    "C90", # more complexity rules
+    "RUF", # ruff dev rules
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 18
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.uv]
+dev-dependencies = [
+    "jupyter>=1.1.1",
+    "pre-commit>=3.8.0",
+    "pytest>=8.3.3",
+    "ruff>=0.6.8",
+]
