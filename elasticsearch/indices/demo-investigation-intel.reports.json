@@ -1,7 +1,7 @@
 {
   "settings": {
     "index.codec": "default",
-    "index.default_pipeline": "intel-reports-pipeline",
+    "index.default_pipeline": "investigation-intel.reports-pipeline",
     "index.query.default_field": [
       "*"
     ],
@@ -74,14 +74,19 @@
             "type": "integer"
           },
           "content": {
-            "type": "text"
-          },
-          "content_semantic": {
-            "type": "semantic_text",
-            "inference_id": ".elser-2-elasticsearch",
-            "model_settings": {
-              "service": "elasticsearch",
-              "task_type": "sparse_embedding"
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "text"
+              },
+              "semantic": {
+                "type": "semantic_text",
+                "inference_id": ".elser-2-elasticsearch",
+                "model_settings": {
+                  "service": "elasticsearch",
+                  "task_type": "sparse_embedding"
+                }
+              }
             }
           },
           "source_eval": {

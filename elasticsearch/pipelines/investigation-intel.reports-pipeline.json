@@ -5,7 +5,7 @@
         "model_id": "conll03_english_ner_ingest",
         "target_field": "ner",
         "field_map": {
-          "intelligence.content": "text_field"
+          "intelligence.content.text": "text_field"
         }
       }
     },
@@ -19,8 +19,8 @@
     },
     {
       "set": {
-        "field": "intelligence.content_semantic",
-        "copy_from": "intelligence.content"
+        "field": "intelligence.content.semantic",
+        "copy_from": "intelligence.content.text"
       }
     },
     {

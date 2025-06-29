@@ -35,83 +35,54 @@ The OCG imports deactivated firearms (primarily pistols and revolvers) from Czec
   - Address: Flat 4, Marina Heights, Birmingham, B1 2NP
   - Czech passport: 99087654
   - Arranges bulk purchases of deactivated weapons from Czech/Slovak dealers
-  - Financial: €50k+ transferred to Czech accounts via Wise/Revolut in 6 months
+  - Financial: €50k+ transferred to Czech accounts monthly
 
-#### **Operational Tier**
+#### **Operational Tier (Arrested)**
 
-- **Danny WRIGHT** (DOB 03/06/1989) - **CONFIRMED** - Customs facilitation at Felixstowe
-  - Customs Officer at Felixstowe Container Port, Gate 4 Processing Centre
-  - Vehicle: Silver Ford Mondeo VRM KL19 WRT
-  - Recent cash deposits: £4,200 (28/10/24), £3,850 (05/11/24) at HSBC Felixstowe
-  - Meets contacts at The Ship Inn, Shotley Gate car park
+- **Lisa BRENNAN** - **ARRESTED 25/11/24**
+  - **Critical logistics coordinator** serving as central nexus linking all operational streams
+  - iPhone 14 (IMEI: 245681357902468) and iPhone 15 Pro (IMEI: 135792468013579) seized
+  - **Import coordination**: Direct liaison with Elena Kozlov for European weapons supply
+  - **Reactivation management**: Coordinates delivery schedules with Terry Mason's workshop
+  - **Distribution control**: Manages Craig Thompson (Manchester/Liverpool) and Jamal Clarke (Birmingham) networks
+  - **Financial oversight**: Arranges payments (€21,250+ per shipment) via "usual channels"
+  - **Crisis management**: By November 2024, actively delaying/cancelling shipments due to "operational concerns"
 
-- **Kevin PARKS** (DOB 28/01/1975) - **CONFIRMED** - Customs facilitation at Hull
-  - Senior Customs Inspector, Hull Port Authority, King George Dock
-  - Address: 15 Maple Drive, Cottingham, HU16 5PR
-  - Vehicle: Red Audi A4 VRM YK23 KPK
-  - £15k cash deposits over 3 months into Santander account
-  - Override authority for container inspections
+- **Danny WRIGHT** - **ARRESTED 25/11/24**
+  - Corrupt Felixstowe customs official facilitating container clearance
+  - Samsung Galaxy S22 seized
+  - Coordinates with Lisa Brennan for smooth customs processing
 
-- **Terry MASON** (DOB 14/09/1980) - **CONFIRMED** - Firearms reactivation specialist
-  - Address: 12 Greenway Close, Wolverhampton, WV3 8QP
-  - Workshop: Unit 7, Riverside Industrial Estate, Wolverhampton, WV2 8QR
-  - Business name: "Precision Engineering Solutions Ltd"
-  - Background: BAE Systems Ordnance division (2003-2011) - specialist firearms knowledge
-  - Operations: 1800-2200 hours weekdays, metalworking machinery
+- **Terry MASON** - **ARRESTED 24/11/24**
+  - Workshop operator in Wolverhampton conducting weapon reactivation
+  - iPhone 13 seized
+  - Professional machining equipment used to convert deactivated weapons to functional firearms
+  - Quality control ensuring weapons are "singing beautifully" (operational)
 
-- **Lisa BRENNAN** (DOB 19/12/1987) - **CONFIRMED** - Storage/logistics coordinator
-  - Address: Flat 3, Canal View Apartments, Wolverhampton, WV1 3HQ
-  - Company director: Midlands Historical Supplies Ltd (shell company for imports)
-  - Registered address: Virtual office service, Unit 12, Birmingham Industrial Park
+- **Jamal CLARKE** - **ARRESTED 23/11/24**
+  - Birmingham distribution coordinator
+  - Samsung Galaxy A54 seized
+  - Supplies weapons to Birmingham street gangs
+  - Street-level pricing: £800-1,200 per weapon
 
-#### **Distribution Network**
+#### **Outstanding Targets**
 
-- **Jamal CLARKE** (DOB 11/07/1994) - **CONFIRMED** - Birmingham area distribution
-  - Address: 78 Stratford Road, Birmingham, B11 1AH
-  - Vehicle: Black BMW 3 Series VRM BD19 JCL
-  - Associate: Northside Crew (Aston/Handsworth areas)
-  - Pricing: £800-1,200 per handgun to street gangs
+- **Kevin PARKS** - Corrupt Hull customs official (warrant pending)
+- **Craig THOMPSON** - Manchester/Liverpool distribution coordinator
+  - Supplies Salford crew and Cheetham Hill gang
+  - Bulk OCG pricing: £1,500-2,000 per weapon (£1,800 confirmed bulk rate)
+  - Patient customer base willing to wait for quality products
 
-- **Craig THOMPSON** (DOB 26/05/1983) - **CONFIRMED** - Manchester/Liverpool distribution
-  - Address: 34 Ashton Road, Manchester, M14 5QR
-  - Vehicle: White Ford Transit van VRM CT83 MAN
-  - Collections: Every 2-3 weeks, 8-12 packages per trip
-  - Clients: Cheetham Hill Gang, Salford-based groups
-  - Pricing: £1,500-2,000 per handgun for bulk purchases
-
-### **Key Locations**
-
-#### **Primary Operations Hub**
-
-- **Unit 7, Riverside Industrial Estate, Wolverhampton, WV2 8QR**
-  - Terry Mason's reactivation workshop
-  - Collection point for distributors
-  - Evening operations (1800-2200 hours)
-
-#### **Money Laundering Network**
-
-- **Golden Scissors Barbers** - 45 High Street, Birmingham, B4 7SL
-  - Operator: Mehmet OZTURK (DOB 19/05/1979)
-  - Daily deposits: £2,500-4,000 at Lloyds Bank Birmingham
-  - Cash-only operation, refuses card payments
-
-- **Istanbul Cuts** - 78 Market Street, Coventry, CV1 3ET
-- **Anatolian Barbers** - 12 King's Road, Leicester, LE1 6RX
-
-#### **Import Points**
-
-- **Felixstowe Container Port** (Danny Wright's facilitation)
-- **Hull Port Authority** (Kevin Parks' facilitation)
-
-## **Modus Operandi**
+## **Operational Methodology**
 
 ### **Import Process**
 
-1. SNOW WHITE coordinates with Czech/Slovak suppliers for deactivated weapons
-2. Weapons shipped in containers manifested as "vintage military collectibles" or "industrial machinery parts"
-3. Danny Wright (Felixstowe) or Kevin Parks (Hull) facilitate customs clearance
-4. Containers cleared without physical inspection through corrupt protocols
-5. Weapons transported to Terry Mason's Wolverhampton workshop
+1. Elena Kozlov coordinates with Czech/Slovak suppliers for deactivated weapons
+2. Weapons shipped in containers manifested as "vintage military collectibles" or "theatrical props"
+3. **Container routing**: Hamburg to Felixstowe (Container PRGU 567890123 identified)
+4. Danny Wright (Felixstowe) or Kevin Parks (Hull) facilitate customs clearance
+5. Containers cleared without physical inspection through corrupt protocols
+6. Lisa Brennan coordinates transport to Terry Mason's Wolverhampton workshop
 
 ### **Reactivation Process**
 
@@ -122,9 +93,14 @@ The OCG imports deactivated firearms (primarily pistols and revolvers) from Czec
 
 ### **Distribution Network**
 
-1. Jamal Clarke collects weapons for Birmingham street gangs
-2. Craig Thompson handles Manchester/Liverpool organised crime groups
-3. Pricing varies: £800-1,200 (street level) to £1,500-2,000 (bulk OCG sales)
+1. **Birmingham territory**: Jamal Clarke collects weapons for Birmingham street gangs
+2. **Manchester/Liverpool territory**: Craig Thompson handles organised crime groups including:
+   - Salford crew (8 weapons typical order)
+   - Cheetham Hill gang (7 weapons typical order)
+3. **Pricing structure**:
+   - Street level: £800-1,200 per weapon
+   - Bulk OCG sales: £1,500-2,000 per weapon
+   - Confirmed bulk rate: £1,800 per weapon for 15+ quantities
 
 ### **Financial Operations**
 
@@ -133,24 +109,26 @@ The OCG imports deactivated firearms (primarily pistols and revolvers) from Czec
 3. NUMBERS coordinates financial flows
 4. Regular "bonuses" paid to corrupt officials through barber shops
 5. Workshop rent and operational costs laundered through same network
+6. European payments: €21,250+ per container shipment
 
 ## **Intelligence Classification**
 
 ### **Confirmed Intelligence (High Confidence)**
 
-- Operational tier identities and roles (Wright, Parks, Mason, Clarke, Thompson) - **ALL ARRESTED**
-- Workshop location and activities - **CONFIRMED THROUGH SURVEILLANCE**
-- Turkish barber money laundering operations - **CONFIRMED THROUGH FINANCIAL INTELLIGENCE**
-- Container import methodology - **CONFIRMED THROUGH CUSTOMS RECORDS**
-- Distribution pricing and territories - **CONFIRMED THROUGH DIGITAL EVIDENCE**
-- Elena KOZLOV identity as SNOW WHITE - **CONFIRMED THROUGH PASSPORT/RESIDENCE RECORDS**
+- **Operational tier identities and roles** - Wright, Parks, Mason, Clarke, Thompson, **Brennan** - **ALL ARRESTED except Parks and Thompson**
+- **Workshop location and activities** - CONFIRMED THROUGH SURVEILLANCE
+- **Turkish barber money laundering operations** - CONFIRMED THROUGH FINANCIAL INTELLIGENCE
+- **Container import methodology** - CONFIRMED THROUGH CUSTOMS RECORDS AND DIGITAL EVIDENCE
+- **Distribution pricing and territories** - CONFIRMED THROUGH DIGITAL EVIDENCE
+- **Elena KOZLOV identity as SNOW WHITE** - CONFIRMED THROUGH PASSPORT/RESIDENCE RECORDS
+- **Lisa Brennan's central coordination role** - CONFIRMED THROUGH COMPREHENSIVE DIGITAL EVIDENCE
 
 ### **Suspected/Unconfirmed (Medium-Low Confidence)**
 
 - Leadership tier identities behind operational codenames:
     - **PROFESSOR** = Marcus Hayes (suspected based on surveillance and criminal intelligence)
     - **NUMBERS** = Rafiq Hassan (suspected based on physical description and vehicle intelligence)
-- Exact scope of European supply network
+- Exact scope of European supply network beyond confirmed Czech/Slovak sources
 - Full extent of distribution network beyond known associates
 - Total volume and frequency of weapon imports
 - Complete financial structure and asset holdings
@@ -164,40 +142,85 @@ From intercepted communications and digital evidence, the OCG uses the following
 
 ## **Recent Developments**
 
-### **Arrests Made**
+### **Arrests Made (November 2024)**
 
-- **Danny WRIGHT** - Arrested 25/11/24, Samsung Galaxy S22 seized
-- **Terry MASON** - Arrested 24/11/24, iPhone 13 seized
-- **Jamal CLARKE** - Arrested 23/11/24, Samsung Galaxy A54 seized
+- **Lisa BRENNAN** - **ARRESTED 25/11/24**, iPhone 14 and iPhone 15 Pro seized
+- **Danny WRIGHT** - **ARRESTED 25/11/24**, Samsung Galaxy S22 seized
+- **Terry MASON** - **ARRESTED 24/11/24**, iPhone 13 seized
+- **Jamal CLARKE** - **ARRESTED 23/11/24**, Samsung Galaxy A54 seized
 
-### **Digital Evidence Recovered**
+### **Comprehensive Digital Evidence Recovered**
 
 Messaging data extracted from seized devices reveals:
-- Direct coordination between Wright and Mason for container clearance
+
+**Import Coordination Evidence:**
+- Direct coordination between Lisa Brennan and Elena Kozlov ("Snow White")
+- Container shipping arrangements (Container PRGU 567890123)
+- Financial arrangements (€21,250 per shipment)
+- Manifesting protocols ("theatrical props", "vintage military collectibles")
+- Hamburg to Felixstowe routing arrangements
+
+**Reactivation Management Evidence:**
+- Workshop capacity planning and delivery scheduling
+- Quality control discussions about weapon functionality
+- Operational security concerns about documentation trails
+- Payment arrangements for workshop services
+
+**Distribution Network Evidence:**
+- Territory-specific order management (Birmingham vs Manchester/Liverpool)
+- Bulk pricing negotiations (£1,800 per weapon confirmed)
+- Customer satisfaction feedback and repeat business arrangements
+- Specific gang affiliations (Salford crew, Cheetham Hill gang)
+
+**Crisis Management Evidence:**
+- November 2024: Lisa Brennan delaying December shipments citing "operational concerns"
+- Orders put "on hold" due to "operational issues needing resolution"
+- Consideration of complete order cancellation due to "serious situation"
+- Evidence of OCG awareness of law enforcement pressure
+
+**Financial Operations Evidence:**
 - Payment arrangements via Golden Scissors barber shop
 - Communications with subjects using OCG nicknames "the Sultan" and "the Professor"
-- Operational discussions about weapon quality and distribution
 - Evidence of money laundering through Turkish barber network
-
-### **Outstanding Targets**
-
-- **PROFESSOR** - Overall OCG leader (identity unconfirmed)
-- **NUMBERS** - Financial controller (identity unconfirmed)
-- Kevin PARKS - Corrupt customs official (warrant pending)
-- Lisa BRENNAN - Logistics coordinator (surveillance ongoing)
 
 ## **Current Investigation Status**
 
-Operation BONANZA has successfully identified and arrested operational-level subjects. Digital forensics from seized devices are providing crucial evidence to link activities to senior leadership figures. Key objectives:
+Operation BONANZA has achieved significant operational success:
+
+### **Operational Tier Dismantled**
+
+- Primary logistics coordinator (Lisa Brennan) arrested with comprehensive digital evidence
+- Workshop operations disrupted (Terry Mason arrested)
+- Key distribution coordinators arrested (Jamal Clarke)
+- Customs corruption network partially exposed (Danny Wright arrested)
+
+### **Outstanding Priority Targets**
+
+- **PROFESSOR** - Overall OCG leader (identity requires confirmation)
+- **NUMBERS** - Financial controller (identity requires confirmation)
+- **Kevin PARKS** - Corrupt Hull customs official (warrant pending)
+- **Craig THOMPSON** - Manchester/Liverpool distribution coordinator (at large)
+
+### **Current Objectives**
+
+Digital forensics from seized devices are providing crucial evidence to link activities to senior leadership figures. Key objectives:
 
 1. **Confirm identity** of PROFESSOR and NUMBERS through additional surveillance and intelligence
-2. **Execute arrests** of remaining operational tier (Parks, Brennan)
+2. **Execute arrests** of remaining operational tier (Parks, Thompson)
 3. **Dismantle supply chain** from European sources to UK distribution
 4. **Target financial network** and seize criminal assets
 5. **Identify additional** corrupted officials and criminal associates
+
+### **Operational Impact**
+
+The arrests have caused significant disruption:
+- European supply chain compromised (shipments cancelled/delayed)
+- Workshop operations ceased
+- Birmingham distribution network disrupted
+- Financial flows through barber network under scrutiny
 
 The investigation represents a significant threat to organised firearms trafficking in the UK, with potential to disrupt multiple criminal enterprises dependent on this supply chain.
 
 ---
 
-_This brief reflects current intelligence as of Operation BONANZA Phase 2. All operational codenames and suspected identities require further verification before proceeding to Phase 3 arrests._
+_This brief reflects current intelligence as of Operation BONANZA Phase 3 completion. Leadership tier identification and financial asset recovery remain priority objectives for Phase 4 operations._

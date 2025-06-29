@@ -1,7 +1,7 @@
 {
   "settings": {
     "index.codec": "default",
-    "index.default_pipeline": "intel-messages-pipeline",
+    "index.default_pipeline": "investigation-messages-pipeline",
     "index.query.default_field": [
       "*"
     ],
