@@ -1,0 +1,165 @@
+{
+  "settings": {
+    "index.codec": "default",
+    "index.default_pipeline": "intel-reports-pipeline",
+    "index.query.default_field": [
+      "*"
+    ],
+    "index.refresh_interval": "5s"
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": {
+        "type": "date",
+        "format": "dd/MM/yyyy||yyyy-MM-dd||strict_date_optional_time"
+      },
+      "operation": {
+        "properties": {
+          "name": {
+            "type": "keyword"
+          },
+          "sio": {
+            "type": "keyword"
+          }
+        }
+      },
+      "report": {
+        "properties": {
+          "urn": {
+            "type": "keyword"
+          },
+          "date_of_intelligence": {
+            "type": "date",
+            "format": "dd/MM/yyyy||yyyy-MM-dd||strict_date_optional_time"
+          },
+          "date_created": {
+            "type": "date",
+            "format": "dd/MM/yyyy||yyyy-MM-dd||strict_date_optional_time"
+          },
+          "point_of_contact": {
+            "type": "keyword"
+          },
+          "title": {
+            "type": "text"
+          },
+          "title_semantic": {
+            "type": "semantic_text",
+            "inference_id": ".elser-2-elasticsearch",
+            "model_settings": {
+              "service": "elasticsearch",
+              "task_type": "sparse_embedding"
+            }
+          },
+          "threats": {
+            "properties": {
+              "text": {
+                "type": "text"
+              },
+              "types": {
+                "type": "keyword"
+              }
+            }
+          },
+          "handling_code": {
+            "type": "keyword"
+          },
+          "confidence_level": {
+            "type": "keyword"
+          }
+        }
+      },
+      "intelligence": {
+        "properties": {
+          "item_number": {
+            "type": "integer"
+          },
+          "content": {
+            "type": "text"
+          },
+          "content_semantic": {
+            "type": "semantic_text",
+            "inference_id": ".elser-2-elasticsearch",
+            "model_settings": {
+              "service": "elasticsearch",
+              "task_type": "sparse_embedding"
+            }
+          },
+          "source_eval": {
+            "properties": {
+              "code": {
+                "type": "keyword"
+              },
+              "text": {
+                "type": "keyword"
+              }
+            }
+          },
+          "intel_eval": {
+            "properties": {
+              "code": {
+                "type": "keyword"
+              },
+              "text": {
+                "type": "keyword"
+              }
+            }
+          },
+          "keywords": {
+            "type": "keyword"
+          }
+        }
+      },
+      "filename": {
+        "type": "keyword"
+      },
+      "ner": {
+        "properties": {
+          "entities": {
+            "properties": {
+              "class_name": {
+                "type": "keyword"
+              },
+              "class_probability": {
+                "type": "float"
+              },
+              "end_pos": {
+                "type": "long"
+              },
+              "entity": {
+                "type": "keyword"
+              },
+              "start_pos": {
+                "type": "long"
+              }
+            }
+          },
+          "is_truncated": {
+            "type": "boolean"
+          },
+          "model_id": {
+            "type": "keyword"
+          },
+          "predicted_value": {
+            "type": "text"
+          }
+        }
+      },
+      "tags": {
+        "properties": {
+          "LOC": {
+            "type": "keyword"
+          },
+          "MISC": {
+            "type": "keyword"
+          },
+          "ORG": {
+            "type": "keyword"
+          },
+          "PER": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}

@@ -139,6 +139,9 @@
           },
           "type": {
             "type": "keyword"
+          },
+          "keywords": {
+            "type": "keyword"
           }
         }
       },
