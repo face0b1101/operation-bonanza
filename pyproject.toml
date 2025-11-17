@@ -12,6 +12,7 @@ maintainers = [
 license = {file = "LICENSE"}
 requires-python = ">=3.12"
 dependencies = [
+    "eland[pytorch]>=9.2.0",
     "elasticsearch>=9.0.2",
     "python-decouple>=3.8",
     "tqdm>=4.66.5",
