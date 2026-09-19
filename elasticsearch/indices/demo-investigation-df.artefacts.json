@@ -7,10 +7,21 @@
     ],
     "index.refresh_interval": "5s"
   },
+  "aliases": {
+    "demo-investigation-df.messages": {}
+  },
   "mappings": {
     "properties": {
       "@timestamp": {
         "type": "date"
+      },
+      "artefact": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "keyword"
+          }
+        }
       },
       "operation": {
         "type": "object",
@@ -66,6 +77,12 @@
         "type": "object",
         "properties": {
           "id": {
+            "type": "keyword"
+          },
+          "name": {
+            "type": "keyword"
+          },
+          "channel": {
             "type": "keyword"
           },
           "message_count": {
@@ -129,16 +146,59 @@
               },
               "semantic": {
                 "type": "semantic_text",
-                "inference_id": ".elser-2-elasticsearch",
-                "model_settings": {
-                  "service": "elasticsearch",
-                  "task_type": "sparse_embedding"
-                }
+                "inference_id": ".jina-embeddings-v5-text-small"
               }
             }
           },
           "type": {
             "type": "keyword"
+          },
+          "channel": {
+            "type": "keyword"
+          },
+          "direction": {
+            "type": "keyword"
+          },
+          "status": {
+            "type": "keyword"
+          },
+          "deleted": {
+            "type": "boolean"
+          },
+          "reply_to_id": {
+            "type": "integer"
+          },
+          "attachment": {
+            "type": "object",
+            "properties": {
+              "filename": {
+                "type": "keyword"
+              },
+              "mime_type": {
+                "type": "keyword"
+              },
+              "size_bytes": {
+                "type": "long"
+              },
+              "sha256": {
+                "type": "keyword"
+              },
+              "caption": {
+                "type": "text"
+              },
+              "transcript": {
+                "type": "text"
+              },
+              "embedding": {
+                "type": "dense_vector",
+                "dims": 1024,
+                "index": true,
+                "similarity": "cosine",
+                "index_options": {
+                  "type": "flat"
+                }
+              }
+            }
           },
           "keywords": {
             "type": "keyword"
