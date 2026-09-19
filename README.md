@@ -12,6 +12,11 @@ This repository showcases how modern search and analytics technologies can assis
 
 - **Intelligence Analysis**: Connecting disparate data points across multiple sources
 - **Digital Forensics**: Analysing communications data and financial transactions
+- **Multimodal Search**: Finding a photograph or a voice note by describing it, where the surrounding message says little
+
+The storyline, the cast and the two seizure phases are in
+[`Operation-Bonanza-Overview.md`](Operation-Bonanza-Overview.md), which also
+records which corpus and index backs each claim.
 
 ## Fictional Scenario
 
@@ -28,8 +33,10 @@ Operation BONANZA targets a sophisticated organised crime group involved in fire
 operation-bonanza/
 ├── data/
 │   ├── intel-reports/         # Criminal intelligence reports (NDJSON)
+│   │   └── originals/        # Prompts for the scanned 5x5x5 report forms
 │   └── df/                   # Digital forensics extracts
-│       └── messages/         # Message threads from seized devices
+│       ├── messages/         # Message threads from seized devices
+│       └── attachments/      # Photographs and voice notes recovered with them
 ├── elasticsearch/
 │   ├── indices/              # Index mappings and settings
 │   └── pipelines/            # Ingest pipeline configurations
